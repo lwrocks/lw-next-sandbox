@@ -1,12 +1,11 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>LW Next Sandbox</title>
-        <meta name="description" content="A Next.js sandbox by Laurel Wright" />
+        <meta name="description" content="A sandbox by Laurel Wright" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
